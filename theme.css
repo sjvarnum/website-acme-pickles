@@ -98,3 +98,8 @@ img {
 .navbar-nav-right li:nth-child(2) {
   margin: 0 5px;
 }
+
+.section-a a {
+    color: #fff;
+}
+
