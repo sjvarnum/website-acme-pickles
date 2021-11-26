@@ -103,40 +103,6 @@ img {
     max-width: 1280px;
 }
 
-/* Section */
-
-.section-b {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.section-c {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: center;
-}
-
-.section-d {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.section-e {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: center;
-}
-
-.section-f {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 /* Footer */
 .footer-container {
     width: 100%;
