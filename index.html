@@ -35,8 +35,34 @@
                     </li>
                     <li><button class="btn btn-dark">Join now</button></li>
                 </ul>
+
+                <!-- Mobile Menu Icon -->
+                <button type="button" class="mobile-menu-icon" id="btn-menu">
+                    <span class="line-top"></span>
+                    <span class="line-middle"></span>
+                    <span class="line-bottom"></span>
+                </button>
             </div>
         </nav>
+
+        <!-- Mobile Nav Menu -->
+        <div class="mobile-menu hidden" id="menu">
+            <ul>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Rewards</a></li>
+                <li><a href="">Gift Cards</a></li>
+            </ul>
+            <div class="mobile-menu-bottom">
+                <button class="btn btn-dark-outline">Sign in</button>
+                <button class="btn btn-dark">Join now</button>
+                <div>
+                    <a href="#">
+                        <img src="img/marker.svg" alt="" />
+                        <span>Find a store</span>
+                    </a>
+                </div>
+            </div>
+        </div>
 
         <section class="section-a bg-primary text-center">
             <div class="section-content">
@@ -130,5 +156,7 @@
                 <p>&copy; ACME Pickle Company. All Rights Reserved.</p>
             </div>
         </footer>
+
+        <script src="script.js"></script>
     </body>
 </html>
